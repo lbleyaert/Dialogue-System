@@ -11,10 +11,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccc5c11be5df55e4a8655ab762f77cd7, type: 3}
   m_Name: New SO_Start Dialogue
   m_EditorClassIdentifier: 
-  nodeText: {fileID: 1291661496379472, guid: eac7f741fa262e240935ada5daa401e9, type: 2}
-  optionOne: {fileID: 1210388275918378, guid: eac7f741fa262e240935ada5daa401e9, type: 2}
-  optionTwo: {fileID: 1033329446486046, guid: eac7f741fa262e240935ada5daa401e9, type: 2}
-  optionThree: {fileID: 1901540079826154, guid: eac7f741fa262e240935ada5daa401e9,
-    type: 2}
-  dialogueWindowPrefab: {fileID: 1899658262624978, guid: eac7f741fa262e240935ada5daa401e9,
+  nodeText: {fileID: 0}
+  responsePanel: {fileID: 0}
+  btnOptionOne: {fileID: 0}
+  btnOptionTwo: {fileID: 0}
+  btnOptionThree: {fileID: 0}
+  dialogueWindowPrefab: {fileID: 1743952351870910, guid: 9fba077f0424b5e4c87cf4dbd072e4e1,
     type: 2}

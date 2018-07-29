@@ -2,25 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class _DialogueOption {
-
-    public string response;
-    public int destinationNodeID;
-
-    //empty constructor
-    public _DialogueOption()
+namespace DialogueNamespace
+{
+    public class DialogueOption
     {
 
+        public string response;
+        public int destinationNodeID;
+
+        //empty constructor
+        public DialogueOption()
+        {
+
+        }
+
+        public DialogueOption(string response, int dest)
+        {
+            this.response = response;
+            this.destinationNodeID = dest;
+
+        }
+
+
     }
-
-    public _DialogueOption(string response, int dest)
-    {
-        this.response = response;
-        this.destinationNodeID = dest;
-
-    }
-
-
 }
 
 /*used a tutorial for dialogue structure: 
